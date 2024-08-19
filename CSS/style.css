@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    height: 800px;
+    background-color: rgb(148, 191, 255);
+    margin: auto;
+}
+
+header {
+    height: 100px;
+    border-bottom: dotted;
+    border-color: white;
+}
+
+#menu {
+    width: 70%;
+    background-color: teal;
+    height: 100px;
+    float: left;
+}
+
+#logo {
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+#logo h1 {
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 0px 0px 15px blue;
+    color: white;
+}
+
+#content {
+    height: 600px;
+}
+
+section {
+    width: 50%;
+    height: 100%;
+    background-color: turquoise;
+    float: left;
+}
+
+aside {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    border-top: dotted;
+    border-color: white;
+}
+
+#adjust img {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 30px;
+}

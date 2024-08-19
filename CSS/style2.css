@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    height: 700px;
+    border: solid;
+    margin: auto;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(41, 78, 121);
+}
+
+section {
+    height: 550px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+aside {
+    height: 550px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(41, 78, 121);
+    clear: both;
+}
+
+.logo1 {
+    width: 60%;
+    height:100%;
+    display: flex;
+    float: left;
+}
+
+.logo2 {
+    width: 40%;
+    height:50%;
+    float: left;
+}
+
+.logo3 {
+    width: 40%;
+    height:50%;
+    float: left;
+}
+
+.text3{
+    height: 80%; 
+    width:100%; 
+    background-color: rgb(209, 209, 209); 
+    margin-top: 10%;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#menu li a {
+    text-decoration: none;
+    background-color: rgb(83, 89, 184);
+    padding: 5px;
+}
